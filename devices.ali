@@ -1,0 +1,162 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvnrnnvnnnnvvvvnvvvnnnnvnnnnnvnnnnnnnnnnnn
+
+U devices%b		devices.adb		21CDA3F7 PK IL
+W ada.exceptions%s	a-except.adb		a-except.ali
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W tools%s		tools.adb		tools.ali
+
+U devices%s		devices.ads		78522B17 NE PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-reatim.ads		20000718095948 5DBAB303
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D devices.ads		20150521174631 25E89814
+D devices.adb		20150521174631 445972C5
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-imgint.ads		20000718095949 21B5CB31
+D s-imgrea.ads		20000718095949 7AFCD204
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20150521174631 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 8|3r6 3r25 59r43 59r69 9|9r31 9r58 10r24 10r51 11r28 11r55 12r26
+. 12r53 13r26 13r53 14r38 14r65 203r40 203r66
+X 5 a-reatim.ads
+43U13*Real_Time 8|3r10 3r29 59r47 59r73 9|9r35 9r62 10r28 10r55 11r32 11r59
+. 12r30 12r57 13r30 13r57 14r42 14r69 203r44 203r70
+45O9*Time 8|59r57 59r83 9|203r54 203r80
+50O9*Time_Span 9|9r45 10r38 11r42 12r40 13r40 14r52
+57U13*Clock 9|79r38 128r38 140r38
+62U13*"-" 9|79r44 128r44 140r44 209r43
+84U13*To_Duration 9|79r26 128r26 140r26 209r26
+89U13*Milliseconds 9|9r72 10r65 11r69 12r67 13r67 14r79
+X 8 devices.ads
+5U9*devices 9|7b14
+14I10*Value_Electrode 18r59
+15i5*Number_Electrodes 17r52
+17I10*EEG_Samples_Index 9|175r13 8|18r37
+18A10*EEG_Samples_Type 9|30r42 8|21r39 9|27r74 8|46r45 9|68r39 75r41 170r41
+21U15*Reading_Sensors 9|68b15
+21a32 L 9|68b32 70m46
+27E10*Eyes_Samples_Index 29r38 9|188r13
+27N33*left 9|192r29
+27N38*right 9|192r18
+28I10*Eyes_Samples_Values 9|144r32 8|29r61 9|144r56 148r32 148r56 183r11
+29A10*Eyes_Samples_Type 9|182r35 8|31r41 50r39 9|94r76 97r44 118r41 124r43
+31U15*Reading_EyesImage 9|118b15
+31a34 L 9|118b34 120m46
+40F10*Values_Pulse_Rate 9|160r34 8|42r38
+42U15*Display_Pulse_Rate 9|160b11
+42f35 P 9|160b31 165r30
+46U15*Display_Electrodes_Sample 9|170b11
+46a42 R 9|170b38 176r33
+50U15*Display_Eyes_Sample 9|182b11
+50a36 R 9|182b32 189r33 192r16 192r27
+54E10*Light_States 9|214r21 8|55r25
+54N27*On 9|218r14
+54N31*Off 9|219r14
+55U15*Light 9|214b11
+55e22 E 9|214b18 217r9
+59U15*Display_Cronometro 9|203b11
+59O35 Origen 9|203b31 209r45
+59O63 Hora 9|203b60 209r38
+63I10*Volume 64r24 9|226r20 236r8
+64U15*Beep 9|226b11
+64i21 v 9|226b17 232r15 236r21
+68U15*Activate_Automatic_Driving 9|242b11
+X 9 devices.adb
+9O5 WCET_Eyes_Image 132r26
+10O5 WCET_EEG 83r26
+11O5 WCET_Display 166r20 178r20 199r20
+12O5 WCET_Alarm 237r19
+13O5 WCET_Light 221r20
+14O5 WCET_Automatic_Driving 246r20
+16i5 EYES_REACTION_WHEN_BEEP 238r31
+25N5 cantidad_datos_Sensores 26r43
+26M10 Indice_Secuencia_Sensores 27r44 32r10 80r15
+27A10 tipo_Secuencia_Sensores 33r18
+29w15 Sensores_Electrodos 70r9
+30U18 Reading_Sensors 70r29 75b17
+30a35 L 75b34 81r10
+32m7 i 80r10 81r25
+33a7 Secuencia 81r15
+76O15 Time_index 77r13 79r15
+77o10 t 79m10 80r50
+92N5 cantidad_datos_EyesImage 93r44
+93M10 Indice_Secuencia_EyesImage 94r45 100r10 129r15 141r15 147r24
+94A10 tipo_Secuencia_EyesImage 101r18
+96w15 Lectura_EyesImage 120r9 238r3
+97U18 Reading_EyesImage 120r27 124b17
+97a37 L 124b36 130r10
+98U18 Reaction 135b17 238r21
+98i28 Level 135b27 142r14 146r17
+100m7 i 129r10 130r25 141r10 143r21 143r24 147r21
+101a7 Secuencia 130r15 144r15 148r15
+125O15 Time_index 126r13 128r15
+126o10 t 128m10 129r51
+136O15 Time_index 137r13 140r15
+137o10 t 140m10 141r43
+143m16 k 144r26
+147m16 k 148r26
+175i8 i 176r35
+183i2 Average 192m4 193r7 194r10 195r10
+188e8 i 189r35
+204O8 Crono 209r8 209r20
+232i7 i
+X 10 kernel.ads
+36U9*Kernel 9|3r6 3r32
+X 15 kernel-serial_output.ads
+36U16*Serial_Output 9|3r13 3r39
+41U14*Put 9|163r4 164r4 173r4 174r4 186r4 187r4 193r28 194r28 195r28 196r28
+. 207r3 209r3 218r21 219r21 231r3 233r5 235r3 236r3 245r4
+X 18 system.ads
+46U9*System 9|4r6 4r18
+X 38 tools.ads
+6U9*tools 9|5r6 5r17
+8O5*Big_Bang 9|79r46 128r46 140r46 162r18 172r18 185r18 206r17 216r18 229r17
+. 244r18
+10U15*Current_Time 9|162r4 172r4 185r4 206r3 216r4 229r3 244r4
+11U15*Print_an_Integer 9|165r4 176r7 189r7
+15U15*Execution_Time 9|83r10 132r10 166r4 178r4 199r4 221r4 237r3 246r4
+

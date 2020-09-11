@@ -1,0 +1,674 @@
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 192288 bytes
+section: .data at 0x202ef20, size 6124 bytes
+tsim> resuming at 0x02000000
+
+[ 0.002109100] >>> Electrodes
+[ 0.025428600] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 0.064610800] --- Electrodes
+[ 0.079939600] >>> Eyes_Detection
+[ 0.108644900] ............# Eyes Openness:  70 70   (o,o)
+[ 0.142697800] --- Eyes_Detection
+[ 0.300403000] >>> Electrodes
+[ 0.323722300] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 0.362904100] --- Electrodes
+[ 0.400381900] >>> Eyes_Detection
+[ 0.429055600] ............# Eyes Openness:  5 5   (-,-)
+[ 0.462084200] --- Eyes_Detection
+[ 0.600381700] >>> Electrodes
+[ 0.623701700] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 0.662883600] --- Electrodes
+[ 0.800381700] >>> Eyes_Detection
+[ 0.829057200] ............# Eyes Openness:  85 85   (O,O)
+[ 0.863109200] --- Eyes_Detection
+[ 0.900305900] >>> Electrodes
+[ 0.923628000] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 0.962809700] --- Electrodes
+[ 1.200301400] >>> Electrodes
+[ 1.223623800] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 1.262806400] --- Electrodes
+[ 1.278135000] >>> Eyes_Detection
+[ 1.306842700] ............# Eyes Openness:  40 40   (*,*)
+[ 1.340894700] --- Eyes_Detection
+[ 1.500392700] >>> Electrodes
+[ 1.523713800] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 1.562896500] --- Electrodes
+[ 1.600381700] >>> Eyes_Detection
+[ 1.629057200] ............# Eyes Openness:  10 10   (-,-)
+[ 1.663109000] --- Eyes_Detection
+[ 1.800305900] >>> Electrodes
+[ 1.823626900] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 1.862809500] --- Electrodes
+[ 2.000381300] >>> Eyes_Detection
+[ 2.029056600] ............# Eyes Openness:  0 0   (-,-)
+[ 2.062084700] --- Eyes_Detection
+[ 2.100381700] >>> Electrodes
+[ 2.123703500] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 2.162885800] --- Electrodes
+[ 2.400301800] >>> Electrodes
+[ 2.423623900] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 2.462805700] --- Electrodes
+[ 2.478135000] >>> Eyes_Detection
+[ 2.506840900] ............# Eyes Openness:  0 0   (-,-)
+[ 2.539869300] --- Eyes_Detection
+[ 2.700392700] >>> Electrodes
+[ 2.723714800] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 2.762897000] --- Electrodes
+[ 2.800305900] >>> Eyes_Detection
+[ 2.828980600] ............# Eyes Openness:  0 0   (-,-)
+[ 2.862008600] --- Eyes_Detection
+[ 3.000381300] >>> Electrodes
+[ 3.023702400] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 3.062884200] --- Electrodes
+[ 3.200381700] >>> Eyes_Detection
+[ 3.229057500] ............# Eyes Openness:  0 0   (-,-)
+[ 3.262086000] --- Eyes_Detection
+[ 3.300381700] >>> Electrodes
+[ 3.323703300] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 3.362885200] --- Electrodes
+[ 3.600301800] >>> Electrodes
+[ 3.623623400] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 3.662805200] --- Electrodes
+[ 3.678134300] >>> Eyes_Detection
+[ 3.706841400] ............# Eyes Openness:  0 0   (-,-)
+[ 3.739870200] --- Eyes_Detection
+[ 3.900316700] >>> Electrodes
+[ 3.923639000] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 3.962821600] --- Electrodes
+[ 4.000381000] >>> Eyes_Detection
+[ 4.029056200] ............# Eyes Openness:  0 0   (-,-)
+[ 4.062084600] --- Eyes_Detection
+[ 4.200381500] >>> Electrodes
+[ 4.223703100] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 4.262885300] --- Electrodes
+[ 4.400381700] >>> Eyes_Detection
+[ 4.429056900] ............# Eyes Openness:  0 0   (-,-)
+[ 4.462085700] --- Eyes_Detection
+[ 4.500381700] >>> Electrodes
+[ 4.523702700] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 4.562884900] --- Electrodes
+[ 4.800301800] >>> Electrodes
+[ 4.823623400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 4.862805900] --- Electrodes
+[ 4.878134700] >>> Eyes_Detection
+[ 4.906841200] ............# Eyes Openness:  0 0   (-,-)
+[ 4.939869600] --- Eyes_Detection
+[ 5.100381300] >>> Electrodes
+[ 5.123703700] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 5.162885600] --- Electrodes
+[ 5.200381700] >>> Eyes_Detection
+[ 5.229057400] ............# Eyes Openness:  85 85   (O,O)
+[ 5.263110100] --- Eyes_Detection
+[ 5.400381700] >>> Electrodes
+[ 5.423703400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 5.462885600] --- Electrodes
+[ 5.600381700] >>> Eyes_Detection
+[ 5.629057400] ............# Eyes Openness:  85 85   (O,O)
+[ 5.663110100] --- Eyes_Detection
+[ 5.700305900] >>> Electrodes
+[ 5.723628300] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 5.762810500] --- Electrodes
+[ 6.000301400] >>> Electrodes
+[ 6.023622700] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 6.062805200] --- Electrodes
+[ 6.078133900] >>> Eyes_Detection
+[ 6.106840900] ............# Eyes Openness:  60 60   (*,*)
+[ 6.140893900] --- Eyes_Detection
+[ 6.300392500] >>> Electrodes
+[ 6.323713600] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 6.362896200] --- Electrodes
+[ 6.400381700] >>> Eyes_Detection
+[ 6.429056800] ............# Eyes Openness:  40 40   (*,*)
+[ 6.463109800] --- Eyes_Detection
+[ 6.600381700] >>> Electrodes
+[ 6.623705400] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 6.662887500] --- Electrodes
+[ 6.800381700] >>> Eyes_Detection
+[ 6.829058500] ............# Eyes Openness:  0 0   (-,-)
+[ 6.862086500] --- Eyes_Detection
+[ 6.900305900] >>> Electrodes
+[ 6.923629900] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 6.962812400] --- Electrodes
+[ 7.200301400] >>> Electrodes
+[ 7.223625100] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 7.262807600] --- Electrodes
+[ 7.278137204] >>> Eyes_Detection
+[ 7.306845100] ............# Eyes Openness:  0 0   (-,-)
+[ 7.339873500] --- Eyes_Detection
+[ 7.500392700] >>> Electrodes
+[ 7.523715100] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 7.562897700] --- Electrodes
+[ 7.600381700] >>> Eyes_Detection
+[ 7.629059600] ............# Eyes Openness:  0 0   (-,-)
+[ 7.662088000] --- Eyes_Detection
+[ 7.800305900] >>> Electrodes
+[ 7.823629300] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 7.862811800] --- Electrodes
+[ 8.000381000] >>> Eyes_Detection
+[ 8.029058300] ............# Eyes Openness:  0 0   (-,-)
+[ 8.062086300] --- Eyes_Detection
+[ 8.100381600] >>> Electrodes
+[ 8.123705400] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 8.162887900] --- Electrodes
+[ 8.400302000] >>> Electrodes
+[ 8.423625800] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 8.462807500] --- Electrodes
+[ 8.478136500] >>> Eyes_Detection
+[ 8.506844500] ............# Eyes Openness:  0 0   (-,-)
+[ 8.539873200] --- Eyes_Detection
+[ 8.700392100] >>> Electrodes
+[ 8.723716000] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 8.762898200] --- Electrodes
+[ 8.800305900] >>> Eyes_Detection
+[ 8.828982400] ............# Eyes Openness:  0 0   (-,-)
+[ 8.862010400] --- Eyes_Detection
+[ 9.000381300] >>> Electrodes
+[ 9.023704200] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 9.062886000] --- Electrodes
+[ 9.200381700] >>> Eyes_Detection
+[ 9.229059300] ............# Eyes Openness:  0 0   (-,-)
+[ 9.262087800] --- Eyes_Detection
+[ 9.300381700] >>> Electrodes
+[ 9.323705100] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 9.362887000] --- Electrodes
+[ 9.600301800] >>> Electrodes
+[ 9.623625200] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 9.662807000] --- Electrodes
+[ 9.678136100] >>> Eyes_Detection
+[ 9.706845000] ............# Eyes Openness:  0 0   (-,-)
+[ 9.739873800] --- Eyes_Detection
+[ 9.900316700] >>> Electrodes
+[ 9.923640800] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 9.962822600] --- Electrodes
+[ 10.000381300] >>> Eyes_Detection
+[ 10.029570600] ............# Eyes Openness:  85 85   (O,O)
+[ 10.064134700] --- Eyes_Detection
+[ 10.200381700] >>> Electrodes
+[ 10.224218108] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 10.263912400] --- Electrodes
+[ 10.400381700] >>> Eyes_Detection
+[ 10.429571700] ............# Eyes Openness:  5 5   (-,-)
+[ 10.463112000] --- Eyes_Detection
+[ 10.500381700] >>> Electrodes
+[ 10.524216400] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 10.563910700] --- Electrodes
+[ 10.800301800] >>> Electrodes
+[ 10.824137400] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 10.863831300] --- Electrodes
+[ 10.879671900] >>> Eyes_Detection
+[ 10.908892800] ............# Eyes Openness:  85 85   (O,O)
+[ 10.943456800] --- Eyes_Detection
+[ 11.100381300] >>> Electrodes
+[ 11.124217800] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 11.163912100] --- Electrodes
+[ 11.200381700] >>> Eyes_Detection
+[ 11.229571500] ............# Eyes Openness:  60 60   (*,*)
+[ 11.264136000] --- Eyes_Detection
+[ 11.400381700] >>> Electrodes
+[ 11.424217500] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 11.463911800] --- Electrodes
+[ 11.600381700] >>> Eyes_Detection
+[ 11.629571500] ............# Eyes Openness:  10 10   (-,-)
+[ 11.664135400] --- Eyes_Detection
+[ 11.700305900] >>> Electrodes
+[ 11.724142400] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 11.763836300] --- Electrodes
+[ 12.000301400] >>> Electrodes
+[ 12.024136800] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 12.063831400] --- Electrodes
+[ 12.079672500] >>> Eyes_Detection
+[ 12.108893200] ............# Eyes Openness:  0 0   (-,-)
+[ 12.142433000] --- Eyes_Detection
+[ 12.300391500] >>> Electrodes
+[ 12.324227100] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 12.363921000] --- Electrodes
+[ 12.400381400] >>> Eyes_Detection
+[ 12.429571300] ............# Eyes Openness:  0 0   (-,-)
+[ 12.463111900] --- Eyes_Detection
+[ 12.600381600] >>> Electrodes
+[ 12.624217900] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 12.663911800] --- Electrodes
+[ 12.800381500] >>> Eyes_Detection
+[ 12.829570200] ............# Eyes Openness:  0 0   (-,-)
+[ 12.863110000] --- Eyes_Detection
+[ 12.900305900] >>> Electrodes
+[ 12.924141500] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 12.963835500] --- Electrodes
+[ 13.200301200] >>> Electrodes
+[ 13.224137600] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 13.263831600] --- Electrodes
+[ 13.279672400] >>> Eyes_Detection
+[ 13.308893700] ............# Eyes Openness:  0 0   (-,-)
+[ 13.342434000] --- Eyes_Detection
+[ 13.500392700] >>> Electrodes
+[ 13.524227800] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 13.563922500] --- Electrodes
+[ 13.600381700] >>> Eyes_Detection
+[ 13.629571200] ............# Eyes Openness:  0 0   (-,-)
+[ 13.663111500] --- Eyes_Detection
+[ 13.800305900] >>> Electrodes
+[ 13.824140900] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 13.863835600] --- Electrodes
+[ 14.000381300] >>> Eyes_Detection
+[ 14.029570600] ............# Eyes Openness:  0 0   (-,-)
+[ 14.063111200] --- Eyes_Detection
+[ 14.100381700] >>> Electrodes
+[ 14.124217500] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 14.163911500] --- Electrodes
+[ 14.400301800] >>> Electrodes
+[ 14.424137600] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 14.463832300] --- Electrodes
+[ 14.479673800] >>> Eyes_Detection
+[ 14.508893400] ............# Eyes Openness:  0 0   (-,-)
+[ 14.542434000] --- Eyes_Detection
+[ 14.700392700] >>> Electrodes
+[ 14.724228500] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 14.763922800] --- Electrodes
+[ 14.800305900] >>> Eyes_Detection
+[ 14.829495400] ............# Eyes Openness:  0 0   (-,-)
+[ 14.863036000] --- Eyes_Detection
+[ 15.000381300] >>> Electrodes
+[ 15.028410304] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 15.063910700] --- Electrodes
+[ 15.200381700] >>> Eyes_Detection
+[ 15.229571400] ............# Eyes Openness:  85 85   (O,O)
+[ 15.264135500] --- Eyes_Detection
+[ 15.300381700] >>> Electrodes
+[ 15.324217200] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 15.363911500] --- Electrodes
+[ 15.600301800] >>> Electrodes
+[ 15.624137300] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 15.663832000] --- Electrodes
+[ 15.679673600] >>> Eyes_Detection
+[ 15.708893500] ............# Eyes Openness:  20 20   (-,-)
+[ 15.743457400] --- Eyes_Detection
+[ 15.900316700] >>> Electrodes
+[ 15.924152900] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 15.963847600] --- Electrodes
+[ 16.000381300] >>> Eyes_Detection
+[ 16.029569700] ............# Eyes Openness:  70 70   (o,o)
+[ 16.064134700] --- Eyes_Detection
+[ 16.200381700] >>> Electrodes
+[ 16.224217200] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 16.263911800] --- Electrodes
+[ 16.400381700] >>> Eyes_Detection
+[ 16.429570800] ............# Eyes Openness:  40 40   (*,*)
+[ 16.464135200] --- Eyes_Detection
+[ 16.500381700] >>> Electrodes
+[ 16.524216600] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 16.563911200] --- Electrodes
+[ 16.800301800] >>> Electrodes
+[ 16.824137300] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 16.863831600] --- Electrodes
+[ 16.879672900] >>> Eyes_Detection
+[ 16.908893300] ............# Eyes Openness:  0 0   (-,-)
+[ 16.942433500] --- Eyes_Detection
+[ 17.100380900] >>> Electrodes
+[ 17.124216900] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 17.163911200] --- Electrodes
+[ 17.200381700] >>> Eyes_Detection
+[ 17.229571100] ............# Eyes Openness:  0 0   (-,-)
+[ 17.263111800] --- Eyes_Detection
+[ 17.400381700] >>> Electrodes
+[ 17.424217100] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 17.463911100] --- Electrodes
+[ 17.600381700] >>> Eyes_Detection
+[ 17.629571100] ............# Eyes Openness:  0 0   (-,-)
+[ 17.663111800] --- Eyes_Detection
+[ 17.700305900] >>> Electrodes
+[ 17.724142000] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 17.763836700] --- Electrodes
+[ 18.000301400] >>> Electrodes
+[ 18.024136400] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 18.063830700] --- Electrodes
+[ 18.079672200] >>> Eyes_Detection
+[ 18.108892100] ............# Eyes Openness:  0 0   (-,-)
+[ 18.142432700] --- Eyes_Detection
+[ 18.300392700] >>> Electrodes
+[ 18.324227500] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 18.363922200] --- Electrodes
+[ 18.400381700] >>> Eyes_Detection
+[ 18.429571600] ............# Eyes Openness:  0 0   (-,-)
+[ 18.463111500] --- Eyes_Detection
+[ 18.600381700] >>> Electrodes
+[ 18.624218000] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 18.663911900] --- Electrodes
+[ 18.800381700] >>> Eyes_Detection
+[ 18.829571100] ............# Eyes Openness:  0 0   (-,-)
+[ 18.863111400] --- Eyes_Detection
+[ 18.900305900] >>> Electrodes
+[ 18.924141400] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 18.963836100] --- Electrodes
+[ 19.200301400] >>> Electrodes
+[ 19.224137700] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 19.263832100] --- Electrodes
+[ 19.279672700] >>> Eyes_Detection
+[ 19.308893200] ............# Eyes Openness:  0 0   (-,-)
+[ 19.342433100] --- Eyes_Detection
+[ 19.500392500] >>> Electrodes
+[ 19.524227800] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 19.563921700] --- Electrodes
+[ 19.600381700] >>> Eyes_Detection
+[ 19.629571400] ............# Eyes Openness:  0 0   (-,-)
+[ 19.663112000] --- Eyes_Detection
+[ 19.800305900] >>> Electrodes
+[ 19.824141100] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 19.863835400] --- Electrodes
+[ 20.000381300] >>> Eyes_Detection
+[ 20.029570500] ............# Eyes Openness:  85 85   (O,O)
+[ 20.064134900] --- Eyes_Detection
+[ 20.100381700] >>> Electrodes
+[ 20.124217400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 20.163912000] --- Electrodes
+[ 20.400301800] >>> Electrodes
+[ 20.424137500] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 20.463831400] --- Electrodes
+[ 20.479672800] >>> Eyes_Detection
+[ 20.508893000] ............# Eyes Openness:  5 5   (-,-)
+[ 20.542433500] --- Eyes_Detection
+[ 20.700392700] >>> Electrodes
+[ 20.724228400] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 20.763922200] --- Electrodes
+[ 20.800305900] >>> Eyes_Detection
+[ 20.829495300] ............# Eyes Openness:  85 85   (O,O)
+[ 20.864059700] --- Eyes_Detection
+[ 21.000381000] >>> Electrodes
+[ 21.024216400] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 21.063910600] --- Electrodes
+[ 21.200381600] >>> Eyes_Detection
+[ 21.229571700] ............# Eyes Openness:  60 60   (*,*)
+[ 21.264135800] --- Eyes_Detection
+[ 21.300381500] >>> Electrodes
+[ 21.324216700] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 21.363910600] --- Electrodes
+[ 21.600301800] >>> Electrodes
+[ 21.624137800] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 21.663832500] --- Electrodes
+[ 21.679674000] >>> Eyes_Detection
+[ 21.708894000] ............# Eyes Openness:  0 0   (-,-)
+[ 21.742434200] --- Eyes_Detection
+[ 21.900316900] >>> Electrodes
+[ 21.924152500] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 21.963846500] --- Electrodes
+[ 22.000381100] >>> Eyes_Detection
+[ 22.029570000] ............# Eyes Openness:  0 0   (-,-)
+[ 22.063110200] --- Eyes_Detection
+[ 22.200381700] >>> Electrodes
+[ 22.224217700] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 22.263912000] --- Electrodes
+[ 22.400381700] >>> Eyes_Detection
+[ 22.429571300] ............# Eyes Openness:  0 0   (-,-)
+[ 22.463111200] --- Eyes_Detection
+[ 22.500381700] >>> Electrodes
+[ 22.524217100] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 22.563911800] --- Electrodes
+[ 22.800301800] >>> Electrodes
+[ 22.824136700] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 22.863831000] --- Electrodes
+[ 22.879671600] >>> Eyes_Detection
+[ 22.908892500] ............# Eyes Openness:  0 0   (-,-)
+[ 22.942432700] --- Eyes_Detection
+[ 23.100381300] >>> Electrodes
+[ 23.124217100] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 23.163911100] --- Electrodes
+[ 23.200381700] >>> Eyes_Detection
+[ 23.229571900] ............# Eyes Openness:  0 0   (-,-)
+[ 23.263112200] --- Eyes_Detection
+[ 23.400381700] >>> Electrodes
+[ 23.424217900] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 23.463912600] --- Electrodes
+[ 23.600381700] >>> Eyes_Detection
+[ 23.629571900] ............# Eyes Openness:  0 0   (-,-)
+[ 23.663112500] --- Eyes_Detection
+[ 23.700305900] >>> Electrodes
+[ 23.724142000] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 23.763836600] --- Electrodes
+[ 24.000301400] >>> Electrodes
+[ 24.024136400] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 24.063830600] --- Electrodes
+[ 24.079671600] >>> Eyes_Detection
+[ 24.108893000] ............# Eyes Openness:  0 0   (-,-)
+[ 24.142433500] --- Eyes_Detection
+[ 24.300392700] >>> Electrodes
+[ 24.324227500] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 24.363922115] --- Electrodes
+[ 24.400381700] >>> Eyes_Detection
+[ 24.429571600] ............# Eyes Openness:  0 0   (-,-)
+[ 24.463111400] --- Eyes_Detection
+[ 24.600381700] >>> Electrodes
+[ 24.624218000] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 24.663911800] --- Electrodes
+[ 24.800381700] >>> Eyes_Detection
+[ 24.829571100] ............# Eyes Openness:  0 0   (-,-)
+[ 24.863111300] --- Eyes_Detection
+[ 24.900305900] >>> Electrodes
+[ 24.924141400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 24.963836000] --- Electrodes
+[ 25.200301400] >>> Electrodes
+[ 25.224137600] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 25.263831500] --- Electrodes
+[ 25.279672100] >>> Eyes_Detection
+[ 25.308893600] ............# Eyes Openness:  85 85   (O,O)
+[ 25.343458000] --- Eyes_Detection
+[ 25.500391700] >>> Electrodes
+[ 25.524227000] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 25.563921600] --- Electrodes
+[ 25.600381300] >>> Eyes_Detection
+[ 25.629570600] ............# Eyes Openness:  85 85   (O,O)
+[ 25.664135000] --- Eyes_Detection
+[ 25.800305900] >>> Electrodes
+[ 25.824141500] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 25.863836200] --- Electrodes
+[ 26.000381300] >>> Eyes_Detection
+[ 26.029570100] ............# Eyes Openness:  70 70   (o,o)
+[ 26.064134400] --- Eyes_Detection
+[ 26.100381700] >>> Electrodes
+[ 26.124218100] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 26.163912400] --- Electrodes
+[ 26.400301800] >>> Electrodes
+[ 26.424137100] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 26.463831800] --- Electrodes
+[ 26.479672700] >>> Eyes_Detection
+[ 26.508892900] ............# Eyes Openness:  40 40   (*,*)
+[ 26.543457700] --- Eyes_Detection
+[ 26.700392500] >>> Electrodes
+[ 26.724228900] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 26.763922800] --- Electrodes
+[ 26.800305900] >>> Eyes_Detection
+[ 26.829494900] ............# Eyes Openness:  0 0   (-,-)
+[ 26.863035100] --- Eyes_Detection
+[ 27.000381300] >>> Electrodes
+[ 27.024216700] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 27.063911000] --- Electrodes
+[ 27.200381700] >>> Eyes_Detection
+[ 27.229571800] ............# Eyes Openness:  0 0   (-,-)
+[ 27.263111700] --- Eyes_Detection
+[ 27.300381700] >>> Electrodes
+[ 27.324216500] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 27.363911200] --- Electrodes
+[ 27.600301800] >>> Electrodes
+[ 27.624137700] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 27.663831700] --- Electrodes
+[ 27.679672300] >>> Eyes_Detection
+[ 27.708893700] ............# Eyes Openness:  0 0   (-,-)
+[ 27.742433600] --- Eyes_Detection
+[ 27.900316700] >>> Electrodes
+[ 27.924152200] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 27.963846100] --- Electrodes
+[ 28.000381300] >>> Eyes_Detection
+[ 28.029570400] ............# Eyes Openness:  0 0   (-,-)
+[ 28.063110900] --- Eyes_Detection
+[ 28.200381700] >>> Electrodes
+[ 28.224217900] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 28.263912500] --- Electrodes
+[ 28.400381700] >>> Eyes_Detection
+[ 28.429571500] ............# Eyes Openness:  0 0   (-,-)
+[ 28.463111700] --- Eyes_Detection
+[ 28.500381700] >>> Electrodes
+[ 28.524216200] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 28.563910400] --- Electrodes
+[ 28.800301800] >>> Electrodes
+[ 28.824136900] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 28.863831500] --- Electrodes
+[ 28.879672800] >>> Eyes_Detection
+[ 28.908893500] ............# Eyes Openness:  0 0   (-,-)
+[ 28.942433300] --- Eyes_Detection
+[ 29.100381300] >>> Electrodes
+[ 29.124217300] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 29.163911600] --- Electrodes
+[ 29.200381700] >>> Eyes_Detection
+[ 29.229571000] ............# Eyes Openness:  0 0   (-,-)
+[ 29.263111200] --- Eyes_Detection
+[ 29.400381700] >>> Electrodes
+[ 29.424217000] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 29.463911600] --- Electrodes
+[ 29.600381700] >>> Eyes_Detection
+[ 29.629571000] ............# Eyes Openness:  0 0   (-,-)
+[ 29.663111200] --- Eyes_Detection
+[ 29.700305900] >>> Electrodes
+[ 29.724141900] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 29.763836200] --- Electrodes
+[ 30.000301400] >>> Electrodes
+[ 30.024136800] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 30.063831400] --- Electrodes
+[ 30.079673000] >>> Eyes_Detection
+[ 30.108893400] ............# Eyes Openness:  70 70   (o,o)
+[ 30.143457700] --- Eyes_Detection
+[ 30.300392500] >>> Electrodes
+[ 30.324227400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 30.363921700] --- Electrodes
+[ 30.400381700] >>> Eyes_Detection
+[ 30.429571700] ............# Eyes Openness:  5 5   (-,-)
+[ 30.463112000] --- Eyes_Detection
+[ 30.600381700] >>> Electrodes
+[ 30.624218100] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 30.663912400] --- Electrodes
+[ 30.800381700] >>> Eyes_Detection
+[ 30.829571200] ............# Eyes Openness:  85 85   (O,O)
+[ 30.864135700] --- Eyes_Detection
+[ 30.900305916] >>> Electrodes
+[ 30.924141900] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 30.963835900] --- Electrodes
+[ 31.200301400] >>> Electrodes
+[ 31.224137800] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 31.263831800] --- Electrodes
+[ 31.279672600] >>> Eyes_Detection
+[ 31.308893900] ............# Eyes Openness:  40 40   (*,*)
+[ 31.343458800] --- Eyes_Detection
+[ 31.500392700] >>> Electrodes
+[ 31.524227800] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 31.563922500] --- Electrodes
+[ 31.600381700] >>> Eyes_Detection
+[ 31.629571200] ............# Eyes Openness:  10 10   (-,-)
+[ 31.664135500] --- Eyes_Detection
+[ 31.800305900] >>> Electrodes
+[ 31.824140900] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 31.863835600] --- Electrodes
+[ 32.000381300] >>> Eyes_Detection
+[ 32.029570600] ............# Eyes Openness:  0 0   (-,-)
+[ 32.063111200] --- Eyes_Detection
+[ 32.100381700] >>> Electrodes
+[ 32.124217500] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 32.163911500] --- Electrodes
+[ 32.400301800] >>> Electrodes
+[ 32.424137900] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 32.463832200] --- Electrodes
+[ 32.479673600] >>> Eyes_Detection
+[ 32.508893500] ............# Eyes Openness:  0 0   (-,-)
+[ 32.542433700] --- Eyes_Detection
+[ 32.700392700] >>> Electrodes
+[ 32.724228800] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 32.763923000] --- Electrodes
+[ 32.800305900] >>> Eyes_Detection
+[ 32.829494600] ............# Eyes Openness:  0 0   (-,-)
+[ 32.863035100] --- Eyes_Detection
+[ 33.000381300] >>> Electrodes
+[ 33.024216400] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 33.063911000] --- Electrodes
+[ 33.200381700] >>> Eyes_Detection
+[ 33.229571500] ............# Eyes Openness:  0 0   (-,-)
+[ 33.263111400] --- Eyes_Detection
+[ 33.300381700] >>> Electrodes
+[ 33.324217300] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 33.363912000] --- Electrodes
+[ 33.600301800] >>> Electrodes
+[ 33.624137400] ............# Electrodes Values:  2 2 2 2 2 2 2 2 2 2
+[ 33.663831700] --- Electrodes
+[ 33.679673200] >>> Eyes_Detection
+[ 33.708893200] ............# Eyes Openness:  0 0   (-,-)
+[ 33.742433400] --- Eyes_Detection
+[ 33.900316900] >>> Electrodes
+[ 33.924153200] ............# Electrodes Values:  3 3 3 3 3 3 3 3 3 3
+[ 33.963847900] --- Electrodes
+[ 34.000381000] >>> Eyes_Detection
+[ 34.029570200] ............# Eyes Openness:  0 0   (-,-)
+[ 34.063110000] --- Eyes_Detection
+[ 34.200381500] >>> Electrodes
+[ 34.224217100] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 34.263911000] --- Electrodes
+[ 34.400381700] >>> Eyes_Detection
+[ 34.429571700] ............# Eyes Openness:  0 0   (-,-)
+[ 34.463112000] --- Eyes_Detection
+[ 34.500381700] >>> Electrodes
+[ 34.524216400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 34.563910700] --- Electrodes
+[ 34.800301800] >>> Electrodes
+[ 34.824137100] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 34.863831100] --- Electrodes
+[ 34.879672500] >>> Eyes_Detection
+[ 34.908892700] ............# Eyes Openness:  0 0   (-,-)
+[ 34.942433300] --- Eyes_Detection
+[ 35.100381300] >>> Electrodes
+[ 35.124217400] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 35.163911400] --- Electrodes
+[ 35.200381700] >>> Eyes_Detection
+[ 35.229571100] ............# Eyes Openness:  85 85   (O,O)
+[ 35.264135300] --- Eyes_Detection
+[ 35.400381700] >>> Electrodes
+[ 35.424217100] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[ 35.463911100] --- Electrodes
+[ 35.600381700] >>> Eyes_Detection
+[ 35.629571100] ............# Eyes Openness:  85 85   (O,O)
+[ 35.664135300] --- Eyes_Detection
+[ 35.700305900] >>> Electrodes
+[ 35.724142000] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 35.763836700] --- Electrodes
+[ 36.000301400] >>> Electrodes
+[ 36.024136400] ............# Electrodes Values:  4 4 4 4 4 4 4 4 4 4
+[ 36.063830700] --- Electrodes
+[ 36.079672200] >>> Eyes_Detection
+[ 36.108892100] ............# Eyes Openness:  60 60   (*,*)
+[ 36.143456200] --- Eyes_Detection
+[ 36.300392700] >>> Electrodes
+[ 36.324227500] ............# Electrodes Values:  5 5 5 5 5 5 5 5 5 5
+[ 36.363922200] --- Electrodes
+[ 36.400381700] >>> Eyes_Detection
+[ 36.429571600] ............# Eyes Openness:  40 40   (*,*)
+[ 36.464136100] --- Eyes_Detection
+[ 36.600381700] >>> Electrodes
+[ 36.624217200] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 36.663911800] --- Electrodes
+[ 36.800381700] >>> Eyes_Detection
+[ 36.829570300] ............# Eyes Openness:  0 0   (-,-)
+[ 36.863110500] --- Eyes_Detection
+[ 36.900305900] >>> Electrodes
+[ 36.924141700] ............# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 36.963836000] --- Electrodes
+[ 37.200301200] >>> Electrodes
+[ 37.224136702] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 37.263831000] --- Electrodes
+[ 37.279671900] >>> Eyes_Detection
+[ 37.308893100] ............# Eyes 
+Interrupt!
+ Stopped at time 375587481 (2.683e+01 s)
+tsim> 

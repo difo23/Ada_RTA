@@ -1,0 +1,187 @@
+scp /home/enmanueldeleonr/Dropbox/Master/TiempoReal/* athens10@138.100.155.19:/home/athens10/programatr/
+
+athens10@debian6:~/programatr$ make
+sparc-ork-gnatmake main -cargs -g -bargs  -largs -k -specs ork_specs -mcpu=cypress -Xlinker -Map -Xlinker main.map
+sparc-ork-gcc -c -g main.adb
+sparc-ork-gcc -c -g add.adb
+sparc-ork-gcc -c -g devices.adb
+sparc-ork-gcc -c -g tools.adb
+sparc-ork-gcc -c -g workload.adb
+sparc-ork-gnatbind -x main.ali
+sparc-ork-gnatlink -k -specs ork_specs -mcpu=cypress -Xlinker -Map -Xlinker main.map main.ali
+sparc-ork-nm main > main.nm
+sparc-ork-size main
+   text	   data	    bss	    dec	    hex	filename
+ 201488	   6140	1930276	2137904	 209f30	main
+athens10@debian6:~/programatr$ tsim-erc32 main
+
+ TSIM/ERC32 - remote SPARC simulator, version 1.0.10 (evaluation version)
+
+ Copyright (C) 2001, Gaisler Research - all rights reserved.
+ For latest updates, go to http://www.gaisler.com/
+ Comments or bug-reports to tsim@gaisler.com
+
+libreadline.so.3: cannot open shared object file: No such file or directory
+serial port A on stdin/stdout
+allocated 4096 K RAM memory
+allocated 2048 K ROM memory
+section: .text at 0x2000000, size 201488 bytes
+section: .data at 0x2031310, size 6140 bytes
+tsim> go
+resuming at 0x02000000
+
+[ 0.003086400] >>> Start Risk Control
+[ 0.022511800] ............%BEEEEP 2
+[ 0.042193600] ............%BEEP 1
+[ 0.060806500] ............Light: ^ON^
+[ 0.081349400] ............%BEEEEEEP 3
+[ 0.102010800] ............Light: ^ON^
+[ 0.122513200] --- End Risk control
+[ 0.140914700] >>> Electrodes
+[ 0.164381400] --- Electrodes
+[ 0.179710200] >>> Eyes_Detection
+[ 0.208501600] --- Eyes_Detection
+[ 0.225878300] >>> Eyes_Detection
+[ 0.254669600] --- Eyes_Detection
+[ 0.272046700] >>> Start Display Info
+[ 0.291503000] ..
+[ 0.300718400] >>> Electrodes
+[ 0.324186100] --- Electrodes
+[ 0.339515600] >>> Eyes_Detection
+[ 0.368305100] --- Eyes_Detection..........# Eyes Openness:  80 80   (o,o)
+[ 0.410627800] ............# Electrodes Values:  7 7 7 7 7 7 7 7 7 7
+[
+[ 0.450803200] >>> Eyes_Detection
+[ 0.479593000] --- Eyes_Detection 0.44980
+[ 0.501065800] >>> Start Risk Control
+[ 0.520522500] --- End Risk control9600] --- End Display Info
+[ 0.600326700] >>> Electrodes
+[ 0.623763600] --- Electrodes
+[ 0.639092900] >>> Eyes_Detection
+[ 0.667882600] --- Eyes_Detection
+[ 0.750380800] >>> Eyes_Detection
+[ 0.779140600] --- Eyes_Detection
+[ 0.900315900] >>> Electrodes
+[ 0.923754500] --- Electrodes
+[ 0.939083900] >>> Eyes_Detection
+[ 0.968066400] --- Eyes_Detection
+[ 1.000391600] >>> Start Risk Control
+[ 1.019816700] --- End Risk control
+[ 1.038249000] >>> Start
+[ 1.051048600] >>> Eyes_Detection
+[ 1.079841900] --- Eyes_Detection Display Info
+[ 1.103875200] ............# Eyes Openness:  60 60   (*,*)
+[ 1.138037000] ............# Electrodes Values:  8 8 8 8 8 8 8 8 8 8
+[ 1.177219300] --- End Display Info
+[ 1.200391900] >>> Electrodes
+[ 1.223830700] --- Electrodes
+[ 1.239159300] >>> Eyes_Detection
+[ 1.267952900] --- Eyes_Detection
+[ 1.350381000] >>> Eyes_Detection
+[ 1.379142300] --- Eyes_Detection
+[ 1.500327200] >>> Start Risk Control
+[ 1.519752500] ............%BEEP 1
+[ 1.538397800] ............Light: ^ON^
+[ 1.558930700] --- End Risk control
+[ 1.577331800] >>> Electrodes
+[ 1.600801100] --- Electrodes
+[ 1.616129800] >>> Eyes_Detection
+[ 1.644922500] --- Eyes_Detection
+[ 1.662299500] >>> Eyes_Detection
+[ 1.691092200] --- Eyes_Detection
+[ 1.800328400] >>> Electrodes
+[ 1.823766400] --- Electrodes
+[ 1.839095100] >>> Eyes_Detection
+[ 1.867887700] --- Eyes_Detection
+[ 1.950304900] >>> Eyes_Detection
+[ 1.979070800] --- Eyes_Detection
+[ 2.000391800] >>> Start Risk Control
+[ 2.019816500] --- End Risk control
+[ 2.038248400] >>> Start Display Info
+[ 2.057704400] ............# Eyes Openness:  80 80   (o,o)
+[ 2.091867000] ..
+[ 2.101051900] >>> Electrodes
+[ 2.124521600] --- Electrodes
+[ 2.144044504] >>> Eyes_Detection
+[ 2.168643100] --- Eyes_Detection..........# Electrodes Values:  6 6 6 6 6 6 6 6 6 6
+[ 2.216016800] --- End Display Info
+[ 2.250394500] >>> Eyes_Detection
+[ 2.279156400] --- Eyes_Detection
+[ 2.400391700] >>> Electrodes
+[ 2.423830200] --- Electrodes
+[ 2.439159400] >>> Eyes_Detection
+[ 2.467951900] --- Eyes_Detection
+[ 2.500381700] >>> Start Risk Control
+[ 2.519807000] ............%BEEEEP 2
+[ 2.539491000] ............%BEEP 1
+[ 2.558105200] ............Light: ^ON^
+[ 2.578648300] ............%BEEEEEEP 3
+[ 2.599311800] ............Light: ^ON^
+[ 2.619813900] --- End Risk control
+[ 2.638215200] >>> Eyes_Detection
+[ 2.667006700] --- Eyes_Detection
+[ 2.700316100] >>> Electrodes
+[ 2.723754900] --- Electrodes
+[ 2.739084200] >>> Eyes_Detection
+[ 2.767876400] --- Eyes_Detection
+[ 2.850304900] >>> Eyes_Detection
+[ 2.879065800] --- Eyes_Detection
+[ 3.000338100] >>> Start Risk Control
+[ 3.019763700] ............%BEEP 1
+[ 3.038409000] ............Light: ^ON^
+[ 3.058941000] --- End Risk control
+[ 3.077342000] >>> Electrodes
+[ 3.100811600] --- Electrodes
+[ 3.116140900] >>> Eyes_Detection
+[ 3.144933100] --- Eyes_Detection
+[ 3.162310500] >>> Eyes_Detection
+[ 3.191102700] --- Eyes_Detection
+[ 3.208479300] >>> Start Display Info
+[ 3.227935700] ............# Eyes Openness:  80 80   (o,o)
+[ 3.262097600] ............# Electrodes Values:  1 1 1 1 1 1 1 1 1 1
+[ 3.300420300] >>> Electrodes
+[ 3.323857800] --- Electrodes
+[ 3.339186800] >>> Eyes_Detection
+[ 3.367979200] --- Eyes_Detection
+[ 3.385696400] --- End Display Info
+[ 3.450394500] >>> Eyes_Detection
+[ 3.479156200] --- Eyes_Detection
+[ 3.500381700] >>> Start Risk Control
+[ 3.519806600] ............%BEEP 1
+[ 3.538452100] ............Light: ^ON^
+[ 3.558984900] --- End Risk control
+[ 3.600316200] >>> Electrodes
+[ 3.623754500] --- Electrodes
+[ 3.639083200] >>> Eyes_Detection
+[ 3.667876200] --- Eyes_Detection
+[ 3.750381000] >>> Eyes_Detection
+[ 3.779143200] --- Eyes_Detection
+[ 3.900315900] >>> Electrodes
+[ 3.923754200] --- Electrodes
+[ 3.939082900] >>> Eyes_Detection
+[ 3.968065400] --- Eyes_Detection
+[ 4.000390800] >>> Start Risk Control
+[ 4.019815600] ............%BEEP 1
+[ 4.038461200] ............Light: ^ON^
+[ 4.058997800] --- End Risk control
+[ 4.077398500] >>> Eyes_Detection
+[ 4.106191800] --- Eyes_Detection
+[ 4.123569200] >>> Start Display Info
+[ 4.143024500] ............# Eyes Openness:  80 80   (o,o)
+[ 4.177186300] ............# Electrodes Value
+[ 4.200707200] >>> Electrodes
+[ 4.224177000] --- Electrodes
+[ 4.239505900] >>> Eyes_Detection
+[ 4.268299000] --- Eyes_Detections:  3 3 3 3 3 3 3 3 3 3
+[ 4.301337100] --- End Display Info
+[ 4.350394500] >>> Eyes_Detection
+[ 4.379156100] --- Eyes_Detection
+[ 4.500327200] >>> Start Risk Control
+[ 4.519752400] ............%BEEP 1
+[ 4.538397200] ............Light: ^ON^
+[ 4.558930000] --- End Risk control
+[ 4.577330600] >>> Electrodes
+Interrupt!
+ Stopped at time 48277144 (3.448e+00 s)
+tsim> 
+

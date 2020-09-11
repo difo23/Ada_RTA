@@ -1,0 +1,136 @@
+V "GNAT Lib v3.13 "
+A -g
+P LC TF
+R nnvvrnvvnnnnvvvvnvvvnnnnnnnnnnvnnnnnnnnnnnn
+
+U add%b			add.adb			261F1CE6 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W ada.interrupts.names%s  a-intnam.ads		a-intnam.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W devices%s		devices.adb		devices.ali  ED
+W eyes_state%s		eyes_state.adb		eyes_state.ali
+W kernel%s		kernel.ads		kernel.ali
+W kernel.serial_output%s  kernel-serial_output.adb  kernel-serial_output.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W tools%s		tools.adb		tools.ali  ED
+
+U add%s			add.ads			204085E0 NE PK IL
+
+D ada.ads		20000718095948 2359F9ED
+D a-except.ads		20000718095948 287FCF69
+D a-finali.ads		20000718095948 3F32DEEF
+D a-filico.ads		20000718095948 1DECB9AC
+D a-interr.ads		20000718095948 6619C24E
+D a-intnam.ads		20010312182047 4ACDF976
+D a-reatim.ads		20000718095948 5DBAB303
+D a-retide.ads		20000718095948 7F3C479C
+D a-stream.ads		20000718095948 5F7C277B
+D a-tags.ads		20000718095948 45EF7E4E
+D add.ads		20150521174631 204085E0
+D add.adb		20150522150715 76785DAA
+D devices.ads		20150521174631 25E89814
+D eyes_state.ads	20150522150542 02C45FEB
+D kernel.ads		20010312182047 56BBE4F1
+D kernel-cpu_primitives.ads  20010312182047 5746D7AD
+D kernel-interrupts.ads	20010312182047 72CD7AA3
+D kernel-parameters.ads	20010312182047 0D1B8F78
+D kernel-peripherals.ads  20010312182047 089544EF
+D kernel-serial_output.ads  20010312182047 16AD38F4
+D kernel-threads.ads	20010312182047 234DAE87
+D kernel-time.ads	20010312182047 7A57ECF4
+D system.ads		20010312182047 2AE5BAFE
+D s-exctab.ads		20000718095948 7A25F5F9
+D s-finimp.ads		20000718095949 1C201C0F
+D s-finroo.ads		20000718095949 166D4EDA
+D s-interr.ads		20010312182047 0AE53449
+D s-osinte.ads		20010312182047 7BFC1094
+D s-parame.ads		20000718095949 25FE086A
+D s-secsta.ads		20000718095949 60A2A5CD
+D s-soflin.ads		20000718095949 006B24D7
+D s-stache.ads		20000718095949 42B57F2A
+D s-stalib.ads		20000718095949 438B3864
+D s-stoele.ads		20000718095949 131D4539
+D s-stratt.ads		20000718095949 1761725B
+D s-tasinf.ads		20000718095949 0F7BBEC5
+D s-taspri.ads		20010312182047 3235B2AC
+D s-taprop.ads		20010312182047 36F12025
+D s-taskin.ads		20000718095949 09146F23
+D s-taprob.ads		20000718095949 1D5668B3
+D s-tposen.ads		20010312182047 5865B402
+D s-tasres.ads		20000718095949 62B4C0AB
+D s-tarest.ads		20000718095949 1D177686
+D s-unstyp.ads		20000718095949 78AFB91D
+D tools.ads		20150521174631 7C34CB2C
+D unchconv.ads		20000718095949 72DC4539
+X 1 ada.ads
+18U9*Ada 12|3r6 3r25 6r6
+X 5 a-interr.ads
+21U13*Interrupts 12|6r10
+X 6 a-intnam.ads
+26U24*Names 12|6r21
+X 7 a-reatim.ads
+43U13*Real_Time 12|3r10 3r29
+45O9*Time 12|68r20 92r20
+50O9*Time_Span 12|21r33 22r37 23r41
+59U13*"+" 12|84r33 121r33
+85U13*To_Time_Span 12|21r46 22r50 23r54
+X 11 add.ads
+1U9*add 12|15b14
+2U13*Background 12|53b15
+X 12 add.adb
+21O5 Period_Electrodes 84r35
+22O5 Period_Eyes_Detection 121r35
+23O5 Period_Drowsiness_Control
+25i5 Priority_Electrodes 39r23
+26i5 Priority_Eyes_Detection 43r23
+27i5 Priority_Drowsiness_Control
+29i5 Priority_Pulse
+30i5 Priority_Of_External_Interrupts_2
+38t10 Electrodes
+42t10 Eyes_Detection
+68O9 siguiente 84m10 84r23 85r22
+69i9 x
+70a9 R 76m27 78r37
+71i9 e
+92O9 siguiente 121m10 121r23 122r22
+93i9 x
+94a9 Current_R 106r25 108m29 112r31
+95a9 R1_previous 105r25 106m10
+96a9 R2_previous 105m10
+99i9 Current_Ap 115r17 116m10
+99i21 Ap1 114r17 115m10
+99i26 Ap2 114m10
+X 13 devices.ads
+5U9*devices 12|10r6 10r19
+14I10*Value_Electrode 12|71r12
+18A10*EEG_Samples_Type 12|70r12
+21U15*Reading_Sensors 12|76r10
+28I10*Eyes_Samples_Values 12|99r31
+29A10*Eyes_Samples_Type 12|94r20 95r22 96r22
+31U15*Reading_EyesImage 12|108r10
+46U15*Display_Electrodes_Sample 12|78r10
+50U15*Display_Eyes_Sample 12|112r10
+X 14 eyes_state.ads
+1U9*eyes_state 12|13r6 13r22
+X 15 kernel.ads
+36U9*Kernel 12|2r6 2r32
+X 20 kernel-serial_output.ads
+36U16*Serial_Output 12|2r13 2r39
+X 23 system.ads
+46U9*System 12|5r6 5r18 25r35 26r39 27r43 29r30 30r50 31r43
+110I12*Priority 12|25r42 26r46 27r50 29r37
+117I12*Interrupt_Priority 12|30r57 31r50
+X 45 tools.ads
+6U9*tools 12|8r6 8r17
+8O5*Big_Bang 12|68r28 92r28
+13U15*Starting_Notice 12|74r10 103r10
+14U15*Finishing_Notice 12|82r10 119r10
+

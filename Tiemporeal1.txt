@@ -1,0 +1,38 @@
+alumno@pc-5-14:~$ scp athens10@138.100.155.19:/home/athens10/programatr/* /home/alumno/tiemporeal/
+athens10@138.100.155.19's password:
+add.adb                                                                                                                                         100% 3637     3.6KB/s   00:00
+add.ads                                                                                                                                         100%   48     0.1KB/s   00:00
+devices.adb                                                                                                                                     100% 8838     8.6KB/s   00:00
+devices.ads                                                                                                                                     100% 2809     2.7KB/s   00:00
+force_external_interrupt_2.adb                                                                                                                  100% 1233     1.2KB/s   00:00
+gnat.adc                                                                                                                                        100%  203     0.2KB/s   00:00
+main.adb                                                                                                                                        100%  125     0.1KB/s   00:00
+Makefile                                                                                                                                        100%  947     0.9KB/s   00:00
+pulse_interrupt.adb                                                                                                                             100% 1385     1.4KB/s   00:00
+pulse_interrupt.ads                                                                                                                             100% 1425     1.4KB/s   00:00
+salida.txt                                                                                                                                      100%  472     0.5KB/s   00:00
+tools.adb                                                                                                                                       100% 2915     2.9KB/s   00:00
+tools.ads                                                                                                                                       100%  490     0.5KB/s   00:00
+workload.adb                                                                                                                                    100%   11KB  10.7KB/s   00:00
+workload.ads                                                                                                                                    100% 1753     1.7KB/s   00:00
+alumno@pc-5-14:~$ ls
+Desktop  pru2  tiemporeal  workspace
+alumno@pc-5-14:~$ cd tiemporeal/
+alumno@pc-5-14:~/tiemporeal$ ls
+add.adb  devices.adb  force_external_interrupt_2.adb  main.adb  pulse_interrupt.adb  salida.txt  tools.ads     workload.ads
+add.ads  devices.ads  gnat.adc                        Makefile  pulse_interrupt.ads  tools.adb   workload.adb
+alumno@pc-5-14:~/tiemporeal$
+
+
+ssh -X athens10@138.100.155.19 gedit /home/athens10/programatr/add.adb --> abrir remotamente 
+
+make --> para compilar
+tsim-erc32 main --> para ejecutar
+go
+.
+.
+.
+quit
+tsim-erc32 main > prueba.txt --> Simular una salida 
+(go y quit a ciegas)
+
